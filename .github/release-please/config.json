@@ -1,17 +1,12 @@
 {
   "bootstrap-sha": "a5bed5fc40f29c1ea8493a6d259fb590d5b7e88e",
-  "release-type": "rust",
+  "release-type": "simple",
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
-  "plugins": ["cargo-workspace"],
   "packages": {
-    "test-bin": {
-        "package-name": "test-bin",
-        "compontent": "test-bin"
+    ".": {
+        "package-name": "test-ci",
+        "compontent": "test-ci"
     },
-    "test-lib2": {
-        "package-name": "test-lib2",
-        "compontent": "test-lib2"
-    }
   }
 }
