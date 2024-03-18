@@ -7,6 +7,6 @@
     ".": {
         "package-name": "test-ci",
         "compontent": "test-ci"
-    },
+    }
   }
 }
