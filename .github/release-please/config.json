@@ -5,9 +5,13 @@
   "bump-patch-for-minor-pre-major": true,
   "plugins": ["cargo-workspace"],
   "packages": {
-    ".": {
-        "package-name": "test-ci",
-        "compontent": "test-ci"
+    "test-bin": {
+        "package-name": "test-bin",
+        "compontent": "test-bin"
+    },
+    "test-lib2": {
+        "package-name": "test-lib2",
+        "compontent": "test-bin"
     }
   }
 }
