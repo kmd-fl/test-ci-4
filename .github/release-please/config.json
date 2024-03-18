@@ -11,7 +11,7 @@
     },
     "test-lib2": {
         "package-name": "test-lib2",
-        "compontent": "test-bin"
+        "compontent": "test-lib2"
     }
   }
 }
