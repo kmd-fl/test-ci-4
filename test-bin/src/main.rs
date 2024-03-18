@@ -1,3 +1,5 @@
+use test_lib1::add1;
+
 fn main() {
-    println!("Hello, world 3!");
+    println!("Hello: {}", add1(1, 2));
 }
