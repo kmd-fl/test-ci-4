@@ -4,7 +4,7 @@ version = 3
 
 [[package]]
 name = "test-bin"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "test-lib1",
 ]
