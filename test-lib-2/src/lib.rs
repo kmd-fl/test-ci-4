@@ -1,5 +1,7 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right + 1
+use test_lib1::add1;
+
+pub fn add_suprize(left: usize, right: usize) -> usize {
+    left + right + add1(left, right)
 }
 
 #[cfg(test)]
